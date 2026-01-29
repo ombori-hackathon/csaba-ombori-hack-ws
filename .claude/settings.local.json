@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth:*)",
+      "Bash(docker --version:*)",
+      "Bash(docker compose:*)",
+      "Bash(uv init:*)",
+      "Bash(gh api:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh repo delete:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(/bin/bash -c \"cd /Users/csaba.gulyas/ombori/hackatlon && ls -la\")",
+      "Bash(/bin/ls:*)",
+      "Bash(git -C /Users/csaba.gulyas/ombori/hackatlon/services/api status)",
+      "Bash(HOME=/Users/csaba.gulyas /bin/bash -c 'cd /Users/csaba.gulyas/ombori/hackatlon/services/api && pwd && git status')",
+      "Bash(/opt/homebrew/bin/python3:*)",
+      "Bash(test:*)",
+      "Bash(git -C /Users/csaba.gulyas/ombori/hackatlon/services/api add .)",
+      "Bash(/usr/bin/git -C /Users/csaba.gulyas/ombori/hackatlon/services/api status)",
+      "Bash(swift package init:*)",
+      "Bash(swift build:*)",
+      "Bash(uv sync:*)",
+      "Bash(gh:*)",
+      "Bash(if [ -d .git ])",
+      "Bash(then rm -rf .git)",
+      "Bash(fi)",
+      "Bash(/bin/bash -c \"cd /Users/csaba.gulyas/ombori/hackatlon && pwd\")"
+    ]
+  }
+}
